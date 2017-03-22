@@ -1,0 +1,54 @@
+h2 {
+  text-align: center;
+}
+.regestryform {
+  border-radius: 10px;
+  background-color: #ccffff;
+  padding: 100px 30px;
+  width: 40%;
+  margin: auto;
+}
+form {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  line-height: 40px;
+}
+input {
+  width: 200px;
+}
+input[type=text], select {
+  padding: 10px 5px;
+  margin: auto;
+  display: inline-block;
+  border: 2px solid #00b8e6;
+  align: center;
+}
+input[type=email], select {
+  padding: 10px 5px;
+  margin: auto;
+  display: inline-block;
+  border: 2px solid #00b8e6;
+  align: center;
+}
+input[type=password], select {
+  padding: 10px 5px;
+  margin: auto;
+  display: inline-block;
+  border: 2px solid #00b8e6;
+  align: center;
+}
+input[type=submit] {
+  background-color:#00b8e6;
+  color: white;
+  padding: 10px 5px;
+  margin: 20px;
+  display: inline-block;
+  align: center;
+  width: 215px;
+  border: none;
+}
+input[type=submit]:hover {
+  background-color: #00a3cc;
+  color: white;
+}
